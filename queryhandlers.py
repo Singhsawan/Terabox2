@@ -26,7 +26,7 @@ def back_handler(_, query):
 @bot.on_callback_query(filters.regex('mdisk_cb'))
 def mdisk_chng_handler(_, query):
     user_id = query.from_user.id
-    DOMAIN = "Mdiskshortners.in"
+    DOMAIN = "page.rrlinks.in"
     try:
       query.message.edit(text = change_domain_text.format(DOMAIN),reply_markup=MDISK_ACTIV_BTN,disable_web_page_preview=True)
     except:
@@ -38,7 +38,7 @@ def mdisk_chng_handler(_, query):
 @bot.on_callback_query(filters.regex('vividisk_cb'))
 def vivi_chng_handler(_, query):
     user_id = query.from_user.id
-    DOMAIN = "Vividisklinks.in"
+    DOMAIN = "go.rrlinks.in"
     try:
       query.message.edit(text = change_domain_text.format(DOMAIN),reply_markup=VIVI_ACTIV_BTN,disable_web_page_preview=True)
     except:
