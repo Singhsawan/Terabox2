@@ -16,7 +16,7 @@ start_txt = '''Hello {name}, I am [rrlinks.in](https://rrlinks.in/) , Bulk Link 
 <code>/api <api_token></code> 
 
 🔗 <b>Hit</b> 👉 /commands To Know More About How To use This Bot.
-🔗 <b>Hit</b> 👉 /api To Know More About How To Link Tarabox.in Account To This Bot.
+🔗 <b>Hit</b> 👉 /api To Know More About How To Link rrlinks.in Account To This Bot.
 💁‍♀️ <b>Hit</b> 👉 /help To Get Help.
 ➕ <b>Hit</b> 👉 /footer To Get Help About Adding your Custom Footer to bot.
 🧷 <b>Hit</b> 👉 /unlink To Unlink your account from this Bot.
