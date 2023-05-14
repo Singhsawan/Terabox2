@@ -6,7 +6,7 @@ from transcripts import *
 from database import *
 # Start Button
 start_btns = InlineKeyboardMarkup([
-    [InlineKeyboardButton("Join Channel ♥️", url="https://t.me/Mdiskshortners_in"),
+    [InlineKeyboardButton("Join Channel ♥️", url="https://t.me/rradmin3"),
      InlineKeyboardButton("About Bot 🤖", callback_data="about_data"),
      ],
     [InlineKeyboardButton("Connect Your API 🔗", callback_data="connect_api"
@@ -23,7 +23,7 @@ about_btns = InlineKeyboardMarkup([
 # Connect button
 connect_btns = InlineKeyboardMarkup([
     [InlineKeyboardButton(
-        "GET API TOKEN 🔑", url="https://MdiskShortner.in/member/tools/api")],
+        "GET API TOKEN 🔑", url="https://rrlinks.in/member/tools/api")],
     [InlineKeyboardButton("◀️ Back️", callback_data="back_data"), ],
 ])
 
