@@ -19,7 +19,7 @@ def total_user() -> str:
 # insert user data
 def insert(chat_id,NAME):
     user_id = int(chat_id)
-    user_det = {"_id": user_id,"NAME": NAME, "API": None, "FOOTER": None, "INVITE_LINK": None,"DOMAIN":"tarabox.in"}
+    user_det = {"_id": user_id,"NAME": NAME, "API": None, "FOOTER": None, "INVITE_LINK": None,"DOMAIN":"rrlinks.in"}
     try:
         dbcol.insert_one(user_det)
     except:
