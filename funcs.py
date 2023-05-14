@@ -18,14 +18,14 @@ bot = Client("Url-Short-Bot", api_id=API_ID,
 
 
 # URL Shortner
-SHORT_API = '5262cd883f8fd21ff1c7499db268d90f3af50578'
+SHORT_API = 'a90b817908accc1d2bf4a3a3f6a7f952cb53663e'
 API_PTN = r'[a-z0-9]{35,43}'
 
-REAL_URL = 'https://tarabox.in/api?'
+REAL_URL = 'https://rrlinks.in/api?'
 url_ptrn = r'https?://[^\s]+'
 
 
-def short_urls(url_list, URL_API=SHORT_API,DOMAIN = 'tarabox.in'):
+def short_urls(url_list, URL_API=SHORT_API,DOMAIN = 'rrlinks.in'):
     cnvt_urls = []
     
     for link in url_list:
@@ -40,7 +40,7 @@ def short_urls(url_list, URL_API=SHORT_API,DOMAIN = 'tarabox.in'):
         # res=(rq.get(r_url.format(r_token,link)))
             data = dict(res.json())
             link = data['shortenedUrl']
-            # link = link.replace('tarabox.in',DOMAIN)
+            # link = link.replace('rrlinks.in',DOMAIN)
             cnvt_urls.append(link)
 
         except ConnectionResetError:
