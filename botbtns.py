@@ -6,7 +6,7 @@ from transcripts import *
 from database import *
 # Start Button
 start_btns = InlineKeyboardMarkup([
-    [InlineKeyboardButton("Join Channel ♥️", url="https://t.me/rradmin3"),
+    [InlineKeyboardButton("Join Channel ♥️", url="https://t.me/Spiner84"),
      InlineKeyboardButton("About Bot 🤖", callback_data="about_data"),
      ],
     [InlineKeyboardButton("Connect Your API 🔗", callback_data="connect_api"
@@ -23,16 +23,16 @@ about_btns = InlineKeyboardMarkup([
 # Connect button
 connect_btns = InlineKeyboardMarkup([
     [InlineKeyboardButton(
-        "GET API TOKEN 🔑", url="https://rrlinks.in/member/tools/api")],
+        "GET API TOKEN 🔑", url="https:/urllinkshort.in/member/tools/api")],
     [InlineKeyboardButton("◀️ Back️", callback_data="back_data"), ],
 ])
 
 
 
-vividisk_btn_a = InlineKeyboardButton("go.rrlinks.in ☑️", callback_data="vividisk_cb")
-vividisk_btn = InlineKeyboardButton("go.rrlinks.in", callback_data="vividisk_cb")
-mdisk_btn_a = InlineKeyboardButton("page.rrlinks.in ☑️", callback_data="mdisk_cb")
-mdisk_btn = InlineKeyboardButton("page.rrlinks.in", callback_data="mdisk_cb")
+vividisk_btn_a = InlineKeyboardButton("link.urllinkshort.in ☑️", callback_data="vividisk_cb")
+vividisk_btn = InlineKeyboardButton("link.urllinkshort.in", callback_data="vividisk_cb")
+mdisk_btn_a = InlineKeyboardButton("link.urllinkshort.in ☑️", callback_data="mdisk_cb")
+mdisk_btn = InlineKeyboardButton("urllinkshort.in", callback_data="mdisk_cb")
 back_btn = InlineKeyboardButton("close", callback_data="close_cb")
 
 
