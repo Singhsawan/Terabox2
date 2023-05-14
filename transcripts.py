@@ -5,7 +5,7 @@ BOT_TOKEN = os.environ.get('BOT_TOKEN',"mnm")
 
 start_txt = '''Hello {name}, I am [urllinkshort.in](https://urllinkshort.in/) , Bulk Link Converter. I Can Convert Links Directly From Your [urllinkshort.in](https://urllinkshort.in/),
     
-1. Go To 👉 [rrlinks.in/member/tools/api](https://urllinkshort.in/member/tools/api) 
+1. Go To 👉 [urllinkshort.in/member/tools/api](https://urllinkshort.in/member/tools/api) 
 
 2. Than <b>Copy API Key</b>
 3. <i>Than Type /api than give a single space and than paste your API Key (see example to understand more...)</i>
@@ -24,7 +24,7 @@ start_txt = '''Hello {name}, I am [urllinkshort.in](https://urllinkshort.in/) , 
 
 **urllinkshort.in UPDATE CHANNEL =>** @Spiner84
 
-<i>Anyone who want to use any other shortner instead of rrlinks.in than contact at</i> 👉 @J_shree_ram (all shortners support avilable.)'''
+<i>Anyone who want to use any other shortner instead of urllinkshort.in than contact at</i> 👉 @J_shree_ram (all shortners support avilable.)'''
 
 
 start_msg_txt = '''<b>Hey There, {firstname}
