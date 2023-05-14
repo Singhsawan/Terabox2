@@ -3,9 +3,9 @@ import os
 
 BOT_TOKEN = os.environ.get('BOT_TOKEN',"mnm")
 
-start_txt = '''Hello {name}, I am [rrlinks.in](https://rrlinks.in/) , Bulk Link Converter. I Can Convert Links Directly From Your [rrlinks.in](https://rrlinks.in/),
+start_txt = '''Hello {name}, I am [urllinkshort.in](https://urllinkshort.in/) , Bulk Link Converter. I Can Convert Links Directly From Your [urllinkshort.in](https://urllinkshort.in/),
     
-1. Go To 👉 [rrlinks.in/member/tools/api](https://rrlinks.in/member/tools/api) 
+1. Go To 👉 [rrlinks.in/member/tools/api](https://urllinkshort.in/member/tools/api) 
 
 2. Than <b>Copy API Key</b>
 3. <i>Than Type /api than give a single space and than paste your API Key (see example to understand more...)</i>
@@ -16,13 +16,13 @@ start_txt = '''Hello {name}, I am [rrlinks.in](https://rrlinks.in/) , Bulk Link 
 <code>/api <api_token></code> 
 
 🔗 <b>Hit</b> 👉 /commands To Know More About How To use This Bot.
-🔗 <b>Hit</b> 👉 /api To Know More About How To Link rrlinks.in Account To This Bot.
+🔗 <b>Hit</b> 👉 /api To Know More About How To Link urllinkshort.in Account To This Bot.
 💁‍♀️ <b>Hit</b> 👉 /help To Get Help.
 ➕ <b>Hit</b> 👉 /footer To Get Help About Adding your Custom Footer to bot.
 🧷 <b>Hit</b> 👉 /unlink To Unlink your account from this Bot.
 🤘 <b>Hit</b> 👉 /features To Know More Features Of This Bot.
 
-**rrlinks.in UPDATE CHANNEL =>** @rradmin3
+**urllinkshort.in UPDATE CHANNEL =>** @Spiner84
 
 <i>Anyone who want to use any other shortner instead of rrlinks.in than contact at</i> 👉 @J_shree_ram (all shortners support avilable.)'''
 
@@ -33,14 +33,14 @@ start_msg_txt = '''<b>Hey There, {firstname}
 💬 Just Send Me Your Post/Links
 🔗 I Will Shorten All Links In It 
 
-🔂 I Can Convert to [rrlinks.in](https://rrlinks.in/)
-©️Powered By@rradmin3</b>'''
+🔂 I Can Convert to [urllinkshort.in](https://urllinkshort.in/)
+©️Powered By@Spiner84</b>'''
 
-about_txt = '''Hlw {name}.\n**🤖 Name :** rrlinks Shortener
+about_txt = '''Hlw {name}.\n**🤖 Name :** urllinkshort Shortener
 **🔠 Language :** Python3
 **📚 Library :** Pyrogram
 **🧑🏻‍💻 Developer :** @J_shree_ram
-©️ Powered By @rradmin3'''
+©️ Powered By @Spiner84'''
 
 connect_txt = '''SEND YOUR API TOKEN TO ME
 
@@ -58,20 +58,20 @@ footer_txt = '''<b>Hello {name}, I am MDISK Links Converter,
 Example:
 <code>/footer ━━━━━━━━━━━━━━━━━
 💁‍♀️ 🔥𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🔥 👇
-👉 https://t.me/rrlinks.in</code>
+👉 https://t.me/urllinkshort.in</code>
 
 🤘 Hit 👉 /features <in>To Know More Features Of This Bot.</i>
 
 <b>- Message @J_shree_ram For More Help -</b>'''
 
-channel_link = """Hello {name}, I am rrlinks.in, Bulk Link Converter. I Can Convert Links Directly From Your rrlinks.in, 
+channel_link = """Hello {name}, I am urllinkshort.in, Bulk Link Converter. I Can Convert Links Directly From Your urllinkshort.in, 
 
 🌟 Type /add_channel (channel link or username)
 
 example:
-<code>/add_channel @rrlinks.in</code>
+<code>/add_channel @urllinkshort_in</code>
 Or
-/add_channel https://t.me/rrlinks.in
+/add_channel https://t.me/urllinkshort_in
 
 🤘 Hit 👉 /features To Know More Features Of This Bot."""
 
@@ -79,14 +79,14 @@ removed_chanel = """Channel Removed Sucessfully✅
 
 type... <code>/add_channel Channel_Link </code> To add again..."""
 
-feature_txt = '''<b>Hello {name}, I am rrlinks.in, Bulk Link Converter Bot. I Can Convert Links Directly From Your rrlinks.in Account,
+feature_txt = '''<b>Hello {name}, I am urllinkshort.in, Bulk Link Converter Bot. I Can Convert Links Directly From Your urllinkshort.in Account,
 
 ⚡ Features ⚡
-• I can Convert any links or posts to your rrlinks.in link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)</b>
+• I can Convert any links or posts to your urllinkshort.in link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)</b>
 
-• <i>If send me a post which has rrlinks.in Links, texts & images... Than i wiil replace all rrlinks.in Links with Conveted Links From Your Linked api Account Automatic And Send Back To You.</i>
+• <i>If send me a post which has urllinkshort.in Links, texts & images... Than i wiil replace all rrlinks.in Links with Conveted Links From Your Linked api Account Automatic And Send Back To You.</i>
 
-• <b>I can Convert unlimited rrlinks.in links at once.</b> <i>(if you are sending a list of urls.)</i>
+• <b>I can Convert unlimited urllinkshort.in links at once.</b> <i>(if you are sending a list of urls.)</i>
 
 •<b> No need to share password or email to convert links.
 
