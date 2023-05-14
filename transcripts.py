@@ -3,9 +3,9 @@ import os
 
 BOT_TOKEN = os.environ.get('BOT_TOKEN',"mnm")
 
-start_txt = '''Hello {name}, I am [Tarabox.in](https://Tarabox.in/) , Bulk Link Converter. I Can Convert Links Directly From Your [Tarabox.in](https://Tarabox.in/),
+start_txt = '''Hello {name}, I am [rrlinks.in](https://rrlinks.in/) , Bulk Link Converter. I Can Convert Links Directly From Your [rrlinks.in](https://rrlinks.in/),
     
-1. Go To 👉 [Tarabox.in/member/tools/api](https://Tarabox.in/member/tools/api) 
+1. Go To 👉 [Tarabox.in/member/tools/api](https://rrlinks.in/member/tools/api) 
 
 2. Than <b>Copy API Key</b>
 3. <i>Than Type /api than give a single space and than paste your API Key (see example to understand more...)</i>
@@ -22,9 +22,9 @@ start_txt = '''Hello {name}, I am [Tarabox.in](https://Tarabox.in/) , Bulk Link 
 🧷 <b>Hit</b> 👉 /unlink To Unlink your account from this Bot.
 🤘 <b>Hit</b> 👉 /features To Know More Features Of This Bot.
 
-**TARABOX_IN UPDATE CHANNEL =>** @TaraBox_in
+**TARABOX_IN UPDATE CHANNEL =>** @rradmin3
 
-<i>Anyone who want to use any other shortner instead of TaraBox_in than contact at</i> 👉 @Rahul_Thakor (all shortners support avilable.)'''
+<i>Anyone who want to use any other shortner instead of TaraBox_in than contact at</i> 👉 @J_shree_ram (all shortners support avilable.)'''
 
 
 start_msg_txt = '''<b>Hey There, {firstname}
@@ -33,14 +33,14 @@ start_msg_txt = '''<b>Hey There, {firstname}
 💬 Just Send Me Your Post/Links
 🔗 I Will Shorten All Links In It 
 
-🔂 I Can Convert to [Tarabox.in](https://Tarabox.in/)
-©️Powered By@CrazeBots</b>'''
+🔂 I Can Convert to [Tarabox.in](https://rrlinks.in/)
+©️Powered By@rradmin3</b>'''
 
 about_txt = '''Hlw {name}.\n**🤖 Name :** Tarabox Shortener
 **🔠 Language :** Python3
 **📚 Library :** Pyrogram
-**🧑🏻‍💻 Developer :** @Rahul_Thakor
-©️ Powered By @CrazeBots'''
+**🧑🏻‍💻 Developer :** @J_shree_ram
+©️ Powered By @rradmin3'''
 
 connect_txt = '''SEND YOUR API TOKEN TO ME
 
@@ -58,20 +58,20 @@ footer_txt = '''<b>Hello {name}, I am MDISK Links Converter,
 Example:
 <code>/footer ━━━━━━━━━━━━━━━━━
 💁‍♀️ 🔥𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🔥 👇
-👉 https://t.me/Crazebots</code>
+👉 https://t.me/rrlinks.in</code>
 
-🤘 Hit 👉 /features <i>To Know More Features Of This Bot.</i>
+🤘 Hit 👉 /features <in>To Know More Features Of This Bot.</i>
 
-<b>- Message @Rahul_Thakor For More Help -</b>'''
+<b>- Message @J_shree_ram For More Help -</b>'''
 
-channel_link = """Hello {name}, I am Tarabox.in, Bulk Link Converter. I Can Convert Links Directly From Your Tarabox.in, 
+channel_link = """Hello {name}, I am rrlinks.in, Bulk Link Converter. I Can Convert Links Directly From Your rrlinks.in, 
 
 🌟 Type /add_channel (channel link or username)
 
 example:
-<code>/add_channel @CrazeBots</code>
+<code>/add_channel @rrlinks.in</code>
 Or
-/add_channel https://t.me/CrazeBots
+/add_channel https://t.me/rrlinks.in
 
 🤘 Hit 👉 /features To Know More Features Of This Bot."""
 
@@ -79,21 +79,21 @@ removed_chanel = """Channel Removed Sucessfully✅
 
 type... <code>/add_channel Channel_Link </code> To add again..."""
 
-feature_txt = '''<b>Hello {name}, I am Tarabox.in, Bulk Link Converter Bot. I Can Convert Links Directly From Your Tarabox.in Account,
+feature_txt = '''<b>Hello {name}, I am rrlinks.in, Bulk Link Converter Bot. I Can Convert Links Directly From Your Tarabox.in Account,
 
 ⚡ Features ⚡
-• I can Convert any links or posts to your Mdiskshortner link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)</b>
+• I can Convert any links or posts to your rrlinks.in link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)</b>
 
-• <i>If send me a post which has Tarabox.in Links, texts & images... Than i wiil replace all Tarabox.in Links with Conveted Links From Your Linked api Account Automatic And Send Back To You.</i>
+• <i>If send me a post which has rrlinks.in Links, texts & images... Than i wiil replace all Tarabox.in Links with Conveted Links From Your Linked api Account Automatic And Send Back To You.</i>
 
-• <b>I can Convert unlimited Tarabox.in links at once.</b> <i>(if you are sending a list of urls.)</i>
+• <b>I can Convert unlimited rrlinks.in links at once.</b> <i>(if you are sending a list of urls.)</i>
 
 •<b> No need to share password or email to convert links.
 
 
 • I Can auto add custom footer text to your every post. Hit 👉 /footer To know more...</b>
 
-<i>Anyone who want to use any other shortner instead of Mdiskshortner than contact at</i> 👉 @Rahul_Thakor (all shortners support avilable.)'''
+<i>Anyone who want to use any other shortner instead of Mdiskshortner than contact at</i> 👉 @J_shree_ram (all shortners support avilable.)'''
 
 progress_txt = 'Converting Post'
 
@@ -104,7 +104,7 @@ change_domain_text = "**Current Domain:** {}\n\nChoose Domain Name 👇"
 
 un_suc_text = '''__Invalid API token Or Maybe Wrong Format...__ Please Recheck It And Try Again...
 
-Contact : @Rahul_Thakor For Any Kind Of Help Or Bug Report.**'''
+Contact : @J_shree_ram For Any Kind Of Help Or Bug Report.**'''
 
 suc_txt = '**Api has been added successfully**'
 add_api_txt = 'Please Add Api first using\n/api yourapitoken '
