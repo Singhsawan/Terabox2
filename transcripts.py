@@ -84,7 +84,7 @@ feature_txt = '''<b>Hello {name}, I am urllinkshort.in, Bulk Link Converter Bot.
 ⚡ Features ⚡
 • I can Convert any links or posts to your urllinkshort.in link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)</b>
 
-• <i>If send me a post which has urllinkshort.in Links, texts & images... Than i wiil replace all rrlinks.in Links with Conveted Links From Your Linked api Account Automatic And Send Back To You.</i>
+• <i>If send me a post which has urllinkshort.in Links, texts & images... Than i wiil replace all urllinkshort.in Links with Conveted Links From Your Linked api Account Automatic And Send Back To You.</i>
 
 • <b>I can Convert unlimited urllinkshort.in links at once.</b> <i>(if you are sending a list of urls.)</i>
 
@@ -93,7 +93,7 @@ feature_txt = '''<b>Hello {name}, I am urllinkshort.in, Bulk Link Converter Bot.
 
 • I Can auto add custom footer text to your every post. Hit 👉 /footer To know more...</b>
 
-<i>Anyone who want to use any other shortner instead of rrlinks.in than contact at</i> 👉 @J_shree_ram (all shortners support avilable.)'''
+<i>Anyone who want to use any other shortner instead of urllinkshort.in than contact at</i> 👉 @J_shree_ram (all shortners support avilable.)'''
 
 progress_txt = 'Converting Post'
 
