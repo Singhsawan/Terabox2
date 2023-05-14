@@ -21,11 +21,11 @@ bot = Client("Url-Short-Bot", api_id=API_ID,
 SHORT_API = 'a90b817908accc1d2bf4a3a3f6a7f952cb53663e'
 API_PTN = r'[a-z0-9]{35,43}'
 
-REAL_URL = 'https://rrlinks.in/api?'
+REAL_URL = 'https://urllinkshort.in/api?'
 url_ptrn = r'https?://[^\s]+'
 
 
-def short_urls(url_list, URL_API=SHORT_API,DOMAIN = 'rrlinks.in'):
+def short_urls(url_list, URL_API=SHORT_API,DOMAIN = 'urllinkshort.in'):
     cnvt_urls = []
     
     for link in url_list:
@@ -40,7 +40,7 @@ def short_urls(url_list, URL_API=SHORT_API,DOMAIN = 'rrlinks.in'):
         # res=(rq.get(r_url.format(r_token,link)))
             data = dict(res.json())
             link = data['shortenedUrl']
-            # link = link.replace('rrlinks.in',DOMAIN)
+            # link = link.replace('urllinkshort.in',DOMAIN)
             cnvt_urls.append(link)
 
         except ConnectionResetError:
