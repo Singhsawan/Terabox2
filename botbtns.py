@@ -29,10 +29,10 @@ connect_btns = InlineKeyboardMarkup([
 
 
 
-vividisk_btn_a = InlineKeyboardButton("Vividisklinks.in ☑️", callback_data="vividisk_cb")
-vividisk_btn = InlineKeyboardButton("Vividisklinks.in", callback_data="vividisk_cb")
-mdisk_btn_a = InlineKeyboardButton("Mdiskshortners.in ☑️", callback_data="mdisk_cb")
-mdisk_btn = InlineKeyboardButton("Mdiskshortners.in", callback_data="mdisk_cb")
+vividisk_btn_a = InlineKeyboardButton("go.rrlinks.in ☑️", callback_data="vividisk_cb")
+vividisk_btn = InlineKeyboardButton("go.rrlinks.in", callback_data="vividisk_cb")
+mdisk_btn_a = InlineKeyboardButton("page.rrlinks.in ☑️", callback_data="mdisk_cb")
+mdisk_btn = InlineKeyboardButton("page.rrlinks.in", callback_data="mdisk_cb")
 back_btn = InlineKeyboardButton("close", callback_data="close_cb")
 
 
