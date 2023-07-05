@@ -8,7 +8,7 @@ from transcripts import *
 
 # from unshortenit import UnshortenIt
 sudo_users = [1953040213, 5144980226, 874964742,839221827, 5294965763,5317652430,5141357700]
-TOKEN = os.environ.get("BOT_TOKEN", "5803666114:AAEBnB7upQXTv_5KlPq7vzT-jJ2q3nzn52k")
+TOKEN = os.environ.get("BOT_TOKEN", "5876713266:AAFzF1xGEJMWVbl4EBz8Ei0V9lUNlgopeS4")
 API_HASH = os.environ.get("API_HASH", "cceefd3382b44d4d85be2d83201102b7") 
 API_ID = os.environ.get("API_ID", "10956858")
 
